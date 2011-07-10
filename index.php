@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<div id="main" role="main">
 <?php if (have_posts()) : ?>
 
 	<?php while (have_posts()) : the_post(); ?>
@@ -21,6 +22,5 @@
 	<p class="center">Sorry, but you are looking for something that isn't here.</p>
 
 <?php endif; ?>
-
-
+</div>
 <?php get_footer(); ?>
