@@ -92,12 +92,12 @@ body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #F37C32;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #F37C32;
     text-shadow: none;
 }
 
